@@ -1,0 +1,198 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  background: #f8f5f0;
+  color: #333;
+}
+
+.hero{
+  height: 100vh;
+  background: url(8565fff095f62998b4a56dfd1980630a.jpg) center/cover;
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.overlay{
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.45);
+}
+
+.content{
+  position: relative;
+  z-index: 2;
+  color: white;
+  padding: 20px;
+}
+
+.invite{
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+
+.hero h1{
+  font-family: 'Great Vibes', cursive;
+  font-size: 80px;
+  margin: 20px 0;
+}
+
+.date{
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.btn{
+  display: inline-block;
+  padding: 14px 30px;
+  background: #d4af7f;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border-radius: 50px;
+  transition: 0.3s;
+}
+
+.btn:hover{
+  background: #b89263;
+}
+
+/* DETAIL PAGE */
+
+.detail-page{
+  min-height: 100vh;
+  padding: 80px 20px;
+  background: #f8f5f0;
+}
+
+.container{
+  max-width: 1100px;
+  margin: auto;
+  text-align: center;
+}
+
+.opening{
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.title{
+  font-family: 'Great Vibes', cursive;
+  font-size: 80px;
+  color: #d4af7f;
+  margin-bottom: 20px;
+}
+
+.description{
+  max-width: 700px;
+  margin: auto;
+  line-height: 1.8;
+}
+
+.couple{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 70px;
+}
+
+.card{
+  background: white;
+  padding: 25px;
+  border-radius: 20px;
+  width: 280px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.card img{
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+.card h2{
+  margin-bottom: 10px;
+}
+
+.heart{
+  font-size: 40px;
+  color: #d4af7f;
+}
+
+.event-section{
+  margin-top: 90px;
+}
+
+.event-section h2{
+  margin-bottom: 30px;
+}
+
+.event-box{
+  background: white;
+  padding: 25px;
+  border-radius: 20px;
+  margin: 20px auto;
+  max-width: 400px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.location{
+  margin-top: 90px;
+}
+
+.location h2{
+  margin-bottom: 20px;
+}
+
+.location p{
+  margin-bottom: 25px;
+  line-height: 1.7;
+}
+
+footer{
+  margin-top: 100px;
+  padding: 40px 20px;
+  background: #eee;
+  border-radius: 20px;
+}
+
+footer h3{
+  margin-top: 15px;
+  font-family: 'Great Vibes', cursive;
+  font-size: 45px;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:768px){
+
+  .hero h1{
+    font-size: 55px;
+  }
+
+  .title{
+    font-size: 55px;
+  }
+
+}
+/* Responsive */
+@media(max-width:768px){
+
+  .hero h1{
+    font-size: 55px;
+  }
+
+  .detail h2{
+    font-size: 26px;
+  }
+
+}
